@@ -11,7 +11,6 @@ typedef struct {
 } stackAL;
 
 void initStack(stackAL *s);
-stackAL createStack();
 
 bool push(stackAL *s, int elem);
 bool pop(stackAL*s);
