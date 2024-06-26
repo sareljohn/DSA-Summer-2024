@@ -8,8 +8,7 @@ void init(NodePtr *L) {
 }
 
 void addProcess(NodePtr *L, char id, Data bt, Data at, Data *c) {
-	
-	NodePtr temp = malloc(sizeof(Node));
+	
 	NodePtr nP = malloc(sizeof(Node));
 	
 	nP->info.processId = id;
