@@ -7,11 +7,6 @@ void initStack(stackAL *s) {
 	s->top = -1;
 }
 
-stackAL createStack() {
-	
-}
-
-
 bool push(stackAL *s, int elem) {
 	
 	s->top += 1;
